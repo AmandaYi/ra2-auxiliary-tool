@@ -1,36 +1,29 @@
+// Package main provides various examples of Fyne API capabilities
 package main
 
 import (
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/widget"
+	"ra2_auxiliary_tool/config"
+	"ra2_auxiliary_tool/tool"
 )
 
+var (
+	ra2ToolApp    fyne.App
+	ra2ToolWindow fyne.Window
+)
+
+func init() {}
 func main() {
-	myApp := app.New();
-	win := myApp.NewWindow("Ra2_tool");
-	btn1 := widget.NewLabel("btn1");
-	var btn2 *widget.Button;
-	btn2 = widget.NewButton("btn2", func() {
-		//按钮做一些事情
-		//this.SetText("I am change!")
-		btn2.SetText("I am click");
-		btn1.TextStyle.Bold = true;
+
+	ra2ToolApp = app.New()
+	ra2ToolWindow = ra2ToolApp.NewWindow(config.AppName)
+	ra2ToolWindow.SetFixedSize(true)
+	ra2ToolWindow.Resize(fyne.Size{
+		Width:  400,
+		Height: 650,
 	})
+	tool.InitUI(ra2ToolApp, ra2ToolWindow)
 
-	btn3 := widget.NewButton("btn3", func() {
-		btn2.SetText("haha")
-	})
-	win.SetContent(container.NewVBox(
-		btn1,
-		btn2,
-		btn3,
-
-	))
-
-	//win.SetContent(widget.NewLabel("list button~"));
-
-	win.Resize(fyne.NewSize(200, 200));
-	win.ShowAndRun();
+	ra2ToolWindow.ShowAndRun()
 }

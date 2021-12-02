@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa008f91-1913-490e-b2c1-d056ea8f5b54" name="Default Changelist" comment="" />
+    <list default="true" id="513d1abe-4def-40d1-ac94-8f88562c022a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/baseInfo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/tool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,35 +34,19 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
-    <option name="urls">
-      <list>
-        <option value="file://$PROJECT_DIR$/../../../.." />
-      </list>
-    </option>
   </component>
-  <component name="ProjectId" id="21dCNI9KyFmdHAuYMMnLF9KGT1S" />
+  <component name="ProjectId" id="21iCFityp3OAbQd2atQctdsQTjN" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\src\gitee.com\smallyy\redalert2_fz" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\src\gitee.com\smallyy\redalert2_fz\theme" />
-      <recent name="D:\project\src\gitee.com\smallyy\redalert2_fz" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,29 +60,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build gitee.com/smallyy/redalert2_fz (1)">
-    <configuration name="go build gitee.com/smallyy/redalert2_fz (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="redalert2_fz" />
+  <component name="RunManager" selected="Go Build.go build ra2_auxiliary_tool">
+    <configuration name="go build gitee.com/smallyy2/ra2_auxiliary_tool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ra2_auxiliary_tool" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="gitee.com/smallyy/redalert2_fz" />
+      <package value="gitee.com/smallyy2/ra2_auxiliary_tool" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gitee.com/smallyy/redalert2_fz" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="redalert2_fz" />
+    <configuration name="go build ra2_auxiliary_tool" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ra2_auxiliary_tool" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
+      <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="gitee.com/smallyy/redalert2_fz" />
+      <package value="ra2_auxiliary_tool" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build gitee.com/smallyy/redalert2_fz (1)" />
-        <item itemvalue="Go Build.go build gitee.com/smallyy/redalert2_fz" />
+        <item itemvalue="Go Build.go build ra2_auxiliary_tool" />
+        <item itemvalue="Go Build.go build gitee.com/smallyy2/ra2_auxiliary_tool" />
       </list>
     </recent_temporary>
   </component>
@@ -99,23 +91,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aa008f91-1913-490e-b2c1-d056ea8f5b54" name="Default Changelist" comment="" />
-      <created>1638261535984</created>
+      <changelist id="513d1abe-4def-40d1-ac94-8f88562c022a" name="Default Changelist" comment="" />
+      <created>1638414489105</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638261535984</updated>
-      <workItem from="1638261539726" duration="989000" />
-      <workItem from="1638262571059" duration="949000" />
-      <workItem from="1638267855653" duration="262000" />
-      <workItem from="1638335925945" duration="5064000" />
-      <workItem from="1638345662870" duration="241000" />
-      <workItem from="1638346030533" duration="25000" />
-      <workItem from="1638346182824" duration="256000" />
-      <workItem from="1638346480622" duration="755000" />
-      <workItem from="1638347258375" duration="839000" />
-      <workItem from="1638348121870" duration="106000" />
-      <workItem from="1638348329864" duration="2266000" />
-      <workItem from="1638350845553" duration="59000" />
+      <updated>1638414489105</updated>
+      <workItem from="1638414490272" duration="11816000" />
     </task>
     <servers />
   </component>
