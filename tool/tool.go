@@ -14,8 +14,12 @@ func InitUI(a fyne.App, w fyne.Window) {
 
 	// 显示全图
 	btn1 := widget.NewButton("full map", func() {
-		fmt.Println("显示全图", utils.GetProcess())
+		//fmt.Println("显示全图", utils.GetProcess("WXWorkWeb.exe"))
 
+		pid := utils.GetProcess("WXWorkWeb.exe")
+		_, _ = utils.OpenProcess(false, uint32(pid))
+		fmt.Println(pid)
+		//winlogonProcess
 	})
 	btn2 := widget.NewButton("full keji", func() {
 		fmt.Println("全部科技")
